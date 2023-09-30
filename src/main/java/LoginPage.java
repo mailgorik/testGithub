@@ -3,6 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+
 public class LoginPage extends BasePage {
     private final static String TITLE = "Login page";
     // перелік локаторів для сторінки LoginPage
