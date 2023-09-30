@@ -31,6 +31,8 @@ public class GitHubTest extends BaseTest {
 
     @Test
     public void verifyCreateAndDeleteIssueFunctionality() {
+        Logger logger = LogManager.getLogger();
+        logger.info("verifyCreateAndDeleteIssueFunctionality is starting");
         HomePage homePage = new HomePage(driver);
         homePage.goToLoginPage()
                 .loginSuccessful("mailgorik@gmail.com", "Goreckij0")
