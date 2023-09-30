@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+
 public class MainPage extends BasePage{
     private final static String TITLE = "Main page";
     private By profileImgLocator = By.xpath("(//img[@class='avatar circle'])[1]");
